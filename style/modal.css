@@ -22,6 +22,10 @@
   font-weight: 600;
   margin-bottom: 40px;
 }
+.form__submit:hover {
+  background: #8793FF;
+  color: #fff;
+}
 
 @media (min-width: 1024px) {
   .modal__wrapper {

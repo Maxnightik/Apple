@@ -154,16 +154,16 @@ const timer = (deadline) => {
     unitHour.textContent = timer.hours;
     unitMin.textContent = timer.minutes;
 
-    descriptionDay.textContent = declOfNum(timer.days, ["день", "дня", "дней"]);
+    descriptionDay.textContent = declOfNum(timer.days, ["день", "дня", "днів"]);
     descriptionHour.textContent = declOfNum(timer.hours, [
-      "час",
-      "часа",
-      "часов",
+      "година",
+      "годин",
+      "годин",
     ]);
     descriptionMin.textContent = declOfNum(timer.minutes, [
-      "минута",
-      "минуты",
-      "минут",
+      "хвилина",
+      "хвилин",
+      "хвилин",
     ]);
 
     const timerId = setInterval(start, 60000);
